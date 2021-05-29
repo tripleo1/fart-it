@@ -1315,7 +1315,7 @@ int main( int argc, char* argv[] )
 	if (!_Quiet)
 		printf( "Replaced %i occurence(s) in %i file(s).\n", TotalFindCount, TotalFileCount);
 
-	return TotalFindCount;
+	return EXIT_SUCCESS;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
